@@ -1,0 +1,80 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION, HOMEPAGE_URL } from '../consts'
+import Body from '../components/Body.astro'
+import Content from '../components/Content.astro'
+import { IoArrowForward } from 'react-icons/io5/'
+import Masthead from '../components/Masthead.astro'
+import { Image } from '@astrojs/image/components'
+import { getCollection } from 'astro:content'
+import PortfolioPreview from '../components/PortfolioPreview.astro'
+
+const projects = (await getCollection('works'))
+  .sort(
+    (a: any, b: any) =>
+      b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+  )
+  .slice(0, 4)
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <Body>
+    <Header title={SITE_TITLE} />
+    <main class="pt-[56px]">
+      <Masthead />
+      <Content>
+        <section>
+          <h1 class="uppercase text-4xl text-center font-mplus mt-12 mb-8">
+            👋 Hi there, I&apos;m Shuhey!
+          </h1>
+          <p class="mb-2">
+            While studying computer science at university, I'm involved in
+            research in the field of HCI (Human-Computer Interaction). I'm
+            interested in HCI, especially in controlling human attention.
+          </p>
+          <p class="mb-2">
+            Through the creation of media art works, I'm exploring new forms of
+            expression through the fusion of audiovisual media, such as video
+            and music, and computing.
+          </p>
+          <p class="mb-2">
+            I've participated in international conferences such as SIGGRAPH
+            three times as a Student Volunteer and Student Volunteer Team
+            Leader.
+          </p>
+          <p class="mb-2">
+            I'm a Vimmer (moderate) and always interacts with computers.
+          </p>
+          <p class="mb-8">
+            <a
+              class="inline-flex items-center gap-1 text-orange-500"
+              href="/about"
+              >Learn more about me... <IoArrowForward className="inline" />
+            </a>
+          </p>
+        </section>
+        <section>
+          <h1 class="uppercase text-4xl text-center font-mplus mt-12 mb-8">
+            🌟 Selected Works
+          </h1>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {
+              projects.map((project: any) => (
+                <li class="text-center mb-4">
+                  <PortfolioPreview project={project} />
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+      </Content>
+    </main>
+  </Body>
+  <Footer />
+</html>
