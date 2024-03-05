@@ -10,6 +10,7 @@ import Masthead from '../components/Masthead.astro'
 import { Image } from '@astrojs/image/components'
 import { getCollection } from 'astro:content'
 import PortfolioPreview from '../components/PortfolioPreview.astro'
+import CreatedWithSection from '../components/CreateWithSection.astro'
 
 const projects = (await getCollection('works'))
   .sort(
@@ -30,8 +31,10 @@ const projects = (await getCollection('works'))
       <Masthead />
       <Content>
         <section>
-          <h1 class="uppercase text-4xl text-center font-mplus mt-12 mb-8">
-            👋 Hi there, I&apos;m Shuhey!
+          <h1
+            class="uppercase text-4xl text-center font-montserrat font-bold mt-12 mb-8"
+          >
+            👋 It&apos;s Shuhey Here!
           </h1>
           <p class="mb-2">
             While studying computer science at university, I'm involved in
@@ -60,7 +63,9 @@ const projects = (await getCollection('works'))
           </p>
         </section>
         <section>
-          <h1 class="uppercase text-4xl text-center font-mplus mt-12 mb-8">
+          <h1
+            class="uppercase text-4xl text-center font-montserrat font-bold mt-12 mb-8"
+          >
             🌟 Selected Works
           </h1>
           <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -73,6 +78,7 @@ const projects = (await getCollection('works'))
             }
           </ul>
         </section>
+        <CreatedWithSection />
       </Content>
     </main>
   </Body>
