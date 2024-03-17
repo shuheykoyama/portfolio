@@ -1,0 +1,30 @@
+---
+import HeaderLink from './HeaderLink.astro'
+import { IoLogoGithub } from 'react-icons/io5/index.js'
+import ThemeToggle from './ThemeToggleButton'
+---
+
+<header class="fixed w-full p-2 z-20 backdrop-blur-md">
+  <div class="mx-auto max-w-3xl">
+    <nav class="flex items-center gap-14 text-base">
+      <a href="/" class="group">
+        <h2 class="font-bold tracking-tighter p-2 font-montserrat text-xl">
+          Shuhey Koyama
+        </h2>
+      </a>
+      <div class="font-montserrat font-light items-center gap-9 hidden md:flex">
+        <HeaderLink href="/about">ABOUT</HeaderLink>
+        <HeaderLink href="/works">WORKS</HeaderLink>
+        <HeaderLink href="/photos">PHOTOS</HeaderLink>
+        <HeaderLink
+          href="https://github.com/shuheykoyama/portfolio"
+          target="_blank"
+        >
+          <IoLogoGithub />SOURCE
+        </HeaderLink>
+      </div>
+      <div class="flex-1"></div>
+      <ThemeToggle client:visible />
+    </nav>
+  </div>
+</header>

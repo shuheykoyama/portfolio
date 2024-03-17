@@ -1,0 +1,56 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION, HOMEPAGE_URL } from '../consts'
+import Body from '../components/Body.astro'
+import Content from '../components/Content.astro'
+import { Image } from 'astro:assets'
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <Body>
+    <Header title={SITE_TITLE} />
+    <main class="pt-[56px]">
+      <Content>
+        <section>
+          <h1
+            class="uppercase text-4xl text-center font-montserrat font-bold mt-12 mb-8"
+          >
+            😎 Shuhey Koyama
+          </h1>
+        </section>
+        <Image
+          class="border border-slate-300 dark:border-zinc-700 rounded-xl mb-12"
+          src="/profile-pic_20231220.JPG"
+          width={720 * 2}
+          height="720"
+          aspectRatio={2.0}
+          alt="Thumbnail"
+        />
+        <p class="mb-2">
+          While studying computer science at university, I'm involved in
+          research in the field of HCI (Human-Computer Interaction). I'm
+          interested in HCI, especially in controlling human attention.
+        </p>
+        <p class="mb-2">
+          Through the creation of media art works, I'm exploring new forms of
+          expression through the fusion of audiovisual media, such as video and
+          music, and computing.
+        </p>
+        <p class="mb-2">
+          I've participated in international conferences such as SIGGRAPH three
+          times as a Student Volunteer and Student Volunteer Team Leader.
+        </p>
+        <p class="mb-2">
+          I'm a Vimmer (moderate) and always interacts with computers.
+        </p>
+      </Content>
+    </main>
+  </Body>
+  <Footer />
+</html>

@@ -1,0 +1,48 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION, HOMEPAGE_URL } from '../consts'
+import Body from '../components/Body.astro'
+import Content from '../components/Content.astro'
+import { getCollection } from 'astro:content'
+import PortfolioPreview from '../components/PortfolioPreview.astro'
+
+const projects = (await getCollection('works'))
+  .sort(
+    (a: any, b: any) =>
+      b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+  )
+  .slice(0, 4)
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <Body>
+    <Header title={SITE_TITLE} />
+    <main class="pt-[56px]">
+      <Content>
+        <section>
+          <h1
+            class="uppercase text-4xl text-center font-montserrat font-bold mt-12 mb-8"
+          >
+            🚀 My Works
+          </h1>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {
+              projects.map((project: any) => (
+                <li class="text-center mb-4">
+                  <PortfolioPreview project={project} />
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+      </Content>
+    </main>
+  </Body>
+  <Footer />
+</html>
