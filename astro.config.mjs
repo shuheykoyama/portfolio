@@ -7,8 +7,7 @@ import addClasses from 'rehype-add-classes'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://shuheykoyama.github.io',
-  base: '/portfolio',
+  site: 'https://shuheykoyama.com',
   integrations: [
     sitemap(),
     react(),

@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ["Montserrat'", 'Verdana', 'sans-serif']
+        montserrat: ['Montserrat', 'Verdana', 'sans-serif']
       }
     }
   },
