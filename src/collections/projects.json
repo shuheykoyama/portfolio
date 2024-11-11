@@ -1,8 +1,8 @@
 [
 	{
-		"name": "Email.ML",
-		"description": "Minimalist temporary Email.",
-		"image": "/assets/images/projects/email.ml.png",
+		"name": "TouchTheLight",
+		"description": "Focusing on the experience of naturally getting into the rhythm of the body, such as tapping the rhythm with one's fingers while listening to music, this work adds an interactive visual experience to the conventional music experience by making LEDs blink in response to the movement of one's own fingers. This is the final product of the \"Digital Fabrication\" course offered in the fall semester of the Faculty of Information Science and Technology, Kyoto Sangyo University.",
+		"image": "/assets/images/projects/touchthelight.jpg",
 		"url": "https://email.ml"
 	},
 	{
@@ -10,29 +10,5 @@
 		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
 		"image": "/assets/images/projects/dns.surf.png",
 		"url": "https://dns.surf"
-	},
-	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
-	},
-	{
-		"name": "Sink",
-		"description": "A Simple / Speedy / Secure Link Shortener with Analytics.",
-		"image": "/assets/images/projects/sink.cool.png",
-		"url": "https://sink.cool"
-	},
-	{
-		"name": "BroadcastChannel",
-		"description": "Turn your Telegram Channel into a MicroBlog.",
-		"image": "/assets/images/projects/broadcast-channel.png",
-		"url": "https://github.com/ccbikai/BroadcastChannel"
-	},
-	{
-		"name": "L(O*62).ONG",
-		"description": "Make your URL looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooonger",
-		"image": "/assets/images/projects/long.png",
-		"url": "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong"
 	}
 ]
