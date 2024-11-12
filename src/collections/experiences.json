@@ -1,51 +1,51 @@
 [
   {
-		"dates": "Apr 2025 · Future",
+		"dates": "Apr 2025 - Future",
 		"role": "M.S. Student in Digital Nature Group",
 		"company": "University of Tsukuba",
 		"description": "I'm passionate about exploring the interaction between people, computers, and space through the sound.",
 		"logo": "/assets/images/experiences/dng.ico"
 	},
 	{
-		"dates": "Apr 2024 · Present",
+		"dates": "Apr 2024 - Present",
 		"role": "Back-End and LLM Engineer (Intern)",
-		"company": "株式会社ゼロイチラボ",
+		"company": "Zeroichi Laboratory, Inc.",
 		"description": "I'm mainly engaged in back-end development. For example, I developed a system to summarize articles delivered to RSS feed readers and deliver them to X (formerly Twitter). I also developed an attendance management system using Discord bot as an in-house tool.",
-		"logo": "/assets/images/experiences/zeroichilab.ico"
+		"logo": "/assets/images/experiences/01lab.ico"
 	},
 	{
-		"dates": "Dec 2022 · Dec 2022",
+		"dates": "Dec 2022 - Dec 2022",
 		"role": "Student Volunteer Team Leader",
 		"company": "SIGGRAPH Asia 2022",
 		"description": "I participated in SIGGRAPH Asia (International Conference on Computer Graphics and Interactive Technologies) held in Daegu, Korea in 2022 as a student volunteer team leader. The team leader plays an important role in organizing the conference during the conference by leading the student volunteers and working closely with the student volunteer committee. In my first visit to Korea, I was able to support the student volunteers and make the conference more exciting while interacting and cooperating with other people using English.",
 		"logo": "/assets/images/experiences/sa2022.ico"
 	},
   {
-		"dates": "Arg 2022 · Arg 2022",
+		"dates": "Arg 2022 - Arg 2022",
 		"role": "Student Volunteer",
 		"company": "SIGGRAPH 2022",
 		"description": "I participated in SIGGRAPH (International Conference on Computer Graphics and Interactive Technologies) held in Vancouver, Canada in 2022 as a student volunteer. At first, I had a hard time communicating in English, but I realized how much fun it was to interact with many people in English.",
 		"logo": "/assets/images/experiences/siggraph2022.ico"
 	},
   {
-		"dates": "Feb 2022 · Apr 2023",
+		"dates": "Feb 2022 - Apr 2023",
 		"role": "3D Printer Maintenance Staff",
-		"company": "株式会社YOKOITO",
+		"company": "YOKOITO INC.",
 		"description": "I worked on maintenance and post-processing of 3D printers and design of 3D models.",
 		"logo": "/assets/images/experiences/yokoito.ico"
 	},
 	{
-		"dates": "Dec 2021 · Dec 2021",
+		"dates": "Dec 2021 - Dec 2021",
 		"role": "Student Volunteer",
 		"company": "SIGGRAPH Asia 2021",
 		"description": "I participated as a student volunteer in SIGGRAPH Asia (International Conference on Computer Graphics and Interactive Technologies) held in Tokyo in 2021.",
 		"logo": "/assets/images/experiences/sa2021.ico"
 	},
 	{
-		"dates": "Apr 2020 · Sep 2024",
-		"role": "Kyoto Sangyo University",
-		"company": "Faculty of Information Science and Engineering",
+		"dates": "Apr 2020 - Sep 2024",
+		"role": "Bachelor of Information Science and Engineering",
+    "company": "Kyoto Sangyo University / Shigeyuki Hirai Lab.",
 		"description": "I studied not only the basics of computer science such as operating systems, computer networks, algorithms, programming languages, web technologies, application development, image processing, and machine learning, but also HCI (Human-Computer Interaction) and interaction design.",
-		"logo": "/assets/images/experiences/univ.ico"
+		"logo": "/assets/images/experiences/ksu.ico"
 	}
 ]
