@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/project.astro
 title: noitami
-img: /assets/images/projects/noitami.jpg
+img: /assets/images/projects/noitami.webp
 img_alt: noitami
 description: A mask band that does not cause pain behind the ears.
 dateFormatted: Sep 1st, 2021
 ---
 
-![noitami](/assets/images/projects/noitami.jpg)
+![noitami](/assets/images/projects/noitami.webp)
 
 Focusing on the problem of ear pain caused by wearing masks for long hours every day to prevent infections, we designed and developed an original mask band that is discreet and does not cause ear pain, utilizing the digital fabrication equipment at the university's digital fabrication facility.
 The mask band has the following features

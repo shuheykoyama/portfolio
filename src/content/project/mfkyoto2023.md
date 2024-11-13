@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/project.astro
 title: MFKyoto 2023 Archive Video
-img: /assets/images/projects/mfkyoto2023.jpeg
+img: /assets/images/projects/mfkyoto2023.webp
 img_alt: Maker Faire Kyoto 2023 Archive Video
 description: Produced an archived video of the Maker Faire Kyoto 2023 exhibit.
 dateFormatted: Oct 4th, 2023
 ---
 
-![MFKyoto 2023 Archive Video](/assets/images/projects/mfkyoto2023.jpeg)
+![MFKyoto 2023 Archive Video](/assets/images/projects/mfkyoto2023.webp)
 
 I produced an archive video of the university's fab space exhibit at Maker Faire Kyoto 2023, a manufacturing exhibition event held on April 29 and 30, 2023, at the Keihanna Open Innovation Center (KICK).
 In addition to the gymnastics exhibit for preschool children, in which they learned about the features of digital machine tools by moving their bodies, we set up the exhibit, filmed the exhibit, and edited the archival video.
