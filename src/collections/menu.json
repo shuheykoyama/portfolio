@@ -11,6 +11,10 @@
 		"name": "Projects",
 		"url": "/projects"
 	},
+  {
+    "name": "Publications",
+    "url": "/publications"
+  },
 	{
 		"name": "Photos",
 		"url": "/photos"
