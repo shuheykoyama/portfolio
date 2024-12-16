@@ -1,19 +1,19 @@
 [
-  {
+	{
 		"dates": "Apr 2025 - Future",
 		"role": "M.S. Student (Master's Program in Informatics)",
 		"company": "University of Tsukuba / Digital Nature Group",
 		"description": "I'm passionate about exploring the interaction between people, computers, and space through the sound.",
 		"logo": "/assets/images/experiences/dng.webp"
 	},
-  {
+	{
 		"dates": "Dec 2024 - Present",
 		"role": "Full-Stack Engineer (Intern)",
 		"company": "BONSAI STUDIO INC.",
 		"description": "I'm participating as an engineer in the web development of a video production support tool.",
 		"logo": "/assets/images/experiences/bonsaistudio.webp"
 	},
-  {
+	{
 		"dates": "Dec 2024 - Dec 2024",
 		"role": "Student Volunteer",
 		"company": "SIGGRAPH Asia 2024",
@@ -34,14 +34,14 @@
 		"description": "I participated in SIGGRAPH Asia (International Conference on Computer Graphics and Interactive Technologies) held in Daegu, Korea in 2022 as a student volunteer team leader. The team leader plays an important role in organizing the conference during the conference by leading the student volunteers and working closely with the student volunteer committee. In my first visit to Korea, I was able to support the student volunteers and make the conference more exciting while interacting and cooperating with other people using English.",
 		"logo": "/assets/images/experiences/siggraphasia2022.webp"
 	},
-  {
+	{
 		"dates": "Aug 2022 - Aug 2022",
 		"role": "Student Volunteer",
 		"company": "SIGGRAPH 2022",
 		"description": "I participated in SIGGRAPH (International Conference on Computer Graphics and Interactive Technologies) held in Vancouver, Canada in 2022 as a student volunteer. At first, I had a hard time communicating in English, but I realized how much fun it was to interact with many people in English.",
 		"logo": "/assets/images/experiences/siggraph2022.webp"
 	},
-  {
+	{
 		"dates": "Feb 2022 - Apr 2023",
 		"role": "3D Printer Maintenance Staff",
 		"company": "YOKOITO INC.",
@@ -58,7 +58,7 @@
 	{
 		"dates": "Apr 2020 - Sep 2024",
 		"role": "Bachelor of Science in Information Science and Engineering",
-    "company": "Kyoto Sangyo University / Shigeyuki Hirai Lab.",
+		"company": "Kyoto Sangyo University / Shigeyuki Hirai Lab.",
 		"description": "I studied not only the basics of computer science such as operating systems, computer networks, algorithms, programming languages, web technologies, application development, image processing, and machine learning, but also HCI (Human-Computer Interaction) and interaction design.",
 		"logo": "/assets/images/experiences/ksu.webp"
 	}
