@@ -1,8 +1,9 @@
 ---
-import { IoArrowForward, IoLogoTwitter } from 'react-icons/io5';
+import { IoArrowForward } from 'react-icons/io5';
+import { SiX } from 'react-icons/si';
 const { link, text, icon } = Astro.props;
 
-const Icon = icon === 'twitter' ? IoLogoTwitter : IoArrowForward;
+const Icon = icon === 'twitter' ? SiX : IoArrowForward;
 ---
 
 <a
