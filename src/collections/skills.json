@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Python",
+    "icon": "SiPython",
+    "level": "Intermediate",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+	{
+		"name": "TypeScript",
+		"icon": "SiTypescript",
+		"level": "Intermediate",
+		"keywords": [
+			"Web Development",
+			"Frontend",
+			"Backend",
+			"JavaScript Superset"
+		]
+	},
+	{
+		"name": "JavaScript",
+		"icon": "SiJavascript",
+		"level": "Intermediate",
+		"keywords": ["Web Development", "Frontend", "Backend", "Fullstack"]
+	},
+  {
+    "name": "Vim",
+    "icon": "SiVim",
+    "level": "Intermediate",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+  {
+    "name": "Neovim",
+    "icon": "SiNeovim",
+    "level": "Intermediate",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+  {
+    "name": "Figma",
+    "icon": "SiFigma",
+    "level": "Intermediate",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+	{
+		"name": "HTML",
+		"icon": "SiHtml5",
+		"level": "Intermediate",
+		"keywords": ["Web Development", "Frontend"]
+	},
+	{
+		"name": "CSS",
+		"icon": "SiCss3",
+		"level": "Intermediate",
+		"keywords": ["Web Development", "Frontend", "Responsive Design"]
+	},
+	{
+		"name": "Tailwind CSS",
+		"icon": "SiTailwindcss",
+		"level": "Beginner",
+		"keywords": [
+			"Web Development",
+			"Frontend",
+			"CSS Framework",
+			"Responsive Design"
+		]
+	},
+	{
+		"name": "Node.js",
+		"icon": "SiNodedotjs",
+		"level": "Intermediate",
+		"keywords": ["Web Development", "Backend", "JavaScript", "Server"]
+	},
+	{
+		"name": "Astro",
+		"icon": "SiAstro",
+		"level": "Intermediate",
+		"keywords": ["Web Development", "Frontend", "SSR", "Static Generation"]
+	},
+	{
+		"name": "React",
+		"icon": "SiReact",
+		"level": "Beginner",
+		"keywords": ["Web Development", "Frontend", "JavaScript Library", "UI"]
+	},
+	{
+		"name": "Next.js",
+		"icon": "SiNextdotjs",
+		"level": "Beginner",
+		"keywords": [
+			"Web Development",
+			"Frontend",
+			"React Framework",
+			"SSR",
+			"Static Generation"
+		]
+	},
+	{
+		"name": "Shell",
+		"icon": "SiShell",
+		"level": "Intermediate",
+		"keywords": ["Scripting", "Automation"]
+	},
+	{
+		"name": "Git",
+		"icon": "SiGit",
+		"level": "Intermediate",
+		"keywords": ["Version Control", "Collaboration", "Source Code"]
+	},
+	{
+		"name": "GitHub",
+		"icon": "SiGithub",
+		"level": "Intermediate",
+		"keywords": ["Version Control", "Collaboration", "Source Code", "Git"]
+	},
+	{
+		"name": "Docker",
+		"icon": "SiDocker",
+		"level": "Intermediate",
+		"keywords": ["Virtual Environments", "Backend"]
+	},
+  {
+    "name": "Google Cloud Platform",
+    "icon": "SiGooglecloud",
+    "level": "Intermediate",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+  {
+    "name": "AWS Lambda",
+    "icon": "SiAwslambda",
+    "level": "Beginner",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+	{
+		"name": "PostgreSQL",
+		"icon": "SiPostgresql",
+		"level": "Beginner",
+		"keywords": ["Databases", "SQL", "Data Storage", "Backend"]
+	},
+	{
+		"name": "Rust",
+		"icon": "SiRust",
+		"level": "Intermediate",
+		"keywords": ["Desktop App", "Webview"]
+	},
+	{
+		"name": "C",
+		"icon": "SiC",
+		"level": "Intermediate",
+		"keywords": ["Programming", "Embedded Systems", "System Programming"]
+	},
+  {
+    "name": "Premiere Pro",
+    "icon": "SiAdobepremierepro",
+    "level": "Intermediate",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+  {
+    "name": "Ligthroom Classic",
+    "icon": "SiAdobelightroomclassic",
+    "level": "Intermediate",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+  {
+    "name": "Houdini",
+    "icon": "SiHoudini",
+    "level": "Intermediate",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+  {
+    "name": "After Effects",
+    "icon": "SiAdobeaftereffects",
+    "level": "Beginner",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+  {
+    "name": "Arduino",
+    "icon": "SiArduino",
+    "level": "Intermediate",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+  {
+    "name": "Processing",
+    "icon": "SiProcessingfoundation",
+    "level": "Intermediate",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+  {
+    "name": "Raspberry Pi",
+    "icon": "SiRaspberrypi",
+    "level": "Begginner",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  },
+	{
+		"name": "Java",
+		"icon": "FaJava",
+		"level": "Intermediate",
+		"keywords": ["Programming", "Embedded Systems", "System Programming"]
+	},
+	{
+		"name": "PHP",
+		"icon": "SiPhp",
+		"level": "Beginner",
+		"keywords": ["Web Development", "Backend", "Fullstack"]
+	},
+  {
+    "name": "Lua",
+    "icon": "SiLua",
+    "level": "Beginner",
+    "keywords": ["Programming", "Data Science", "Machine Learning", "Web Development"]
+  }
+]
