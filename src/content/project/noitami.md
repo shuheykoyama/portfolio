@@ -5,6 +5,10 @@ img: /assets/images/projects/noitami.webp
 img_alt: noitami
 description: A mask band that does not cause pain behind the ears.
 dateFormatted: Sep 1st, 2021
+tags:
+  - Digital Fabrication
+  - Product Design
+  - Illustrator
 ---
 
 ![noitami](/assets/images/projects/noitami.webp)
@@ -28,8 +32,8 @@ The mask bands were distributed to participants at a workshop held at the open c
 - 装着感が少なく、締め付けられている感覚がない
 - 自分に合ったサイズに調整して、カスタマイズすることができる
 
-本マスクバンドは，レーザー加工機で外形形状を切断加工し，レーザー彫刻を施して制作している。素材には，柔軟性や弾力性に優れ，消毒・水洗い可能なEVAを使用している。開発過程では，ソフトウェア上で設計したものをデジタル工作機器で実体化し，実物を触って確かめるプロトタイピングを何度も繰り返し，デジタルファブリケーションならではの素早い試行錯誤を行った。
-本マスクバンドは，2021年8月7日〜8日に開催されたオープンキャンパスでのワークショップにて参加者へ配付された。
+本マスクバンドは，レーザー加工機で外形形状を切断加工し，レーザー彫刻を施して制作している。素材には，柔軟性や弾力性に優れ，消毒・水洗い可能な EVA を使用している。開発過程では，ソフトウェア上で設計したものをデジタル工作機器で実体化し，実物を触って確かめるプロトタイピングを何度も繰り返し，デジタルファブリケーションならではの素早い試行錯誤を行った。
+本マスクバンドは，2021 年 8 月 7 日〜8 日に開催されたオープンキャンパスでのワークショップにて参加者へ配付された。
 
 ## Presentation at the Workshop
 
@@ -43,4 +47,5 @@ The mask bands were distributed to participants at a workshop held at the open c
 </div>
 
 ## Press Release
+
 [情報理工学部生が耳が痛くならず目立たないオリジナルのマスクバンドを開発！](https://www.kyoto-su.ac.jp/news/2021_ise/20210826_196_mask.html)

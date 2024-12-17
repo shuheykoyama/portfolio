@@ -5,6 +5,9 @@ img: /assets/images/projects/noribar.webp
 img_alt: noribar
 description: A bus stop information service using AR.
 dateFormatted: Jan 13th, 2023
+tags:
+  - Interaction Design
+  - Figma
 ---
 
 ![noribar](/assets/images/projects/noribar.webp)

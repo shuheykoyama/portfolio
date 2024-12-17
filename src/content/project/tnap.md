@@ -5,6 +5,9 @@ img: /assets/images/projects/tnap.webp
 img_alt: tnap
 description: A screen saver for the terminal.
 dateFormatted: Apr 22nd, 2024
+tags:
+  - Rust
+  - DALL-E 3
 ---
 
 ![tnap](/assets/images/projects/tnap.webp)
@@ -41,4 +44,5 @@ tnap is a screen saver for the terminal. You can rest the terminal in a secure.
 </div>
 
 ## Source Code
+
 - [pigeon-sable/tnap](https://github.com/pigeon-sable/tnap)
