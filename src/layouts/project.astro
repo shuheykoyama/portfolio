@@ -1,6 +1,16 @@
 ---
 import Layout from "./main.astro";
+import ArticleBottomLayout from "../layouts/ArticleBottomLayout.astro";
 import { IoCalendarClearOutline } from "react-icons/io5";
+
+type Props = {
+  frontmatter: {
+    title: string;
+    dateFormatted: string;
+    tags: string[];
+  };
+}
+
 const { frontmatter } = Astro.props;
 ---
 
@@ -11,6 +21,38 @@ const { frontmatter } = Astro.props;
     <div
       class="relative flex flex-col px-5 pt-6 border-t border-b-0 md:border-r md:border-l md:pt-12 lg:px-0 justify-stretch md:rounded-t-2xl border-neutral-200 dark:border-neutral-800"
     >
+      <div class="w-full max-w-2xl mx-auto mb-8">
+        <a href="/projects" 
+          class="group w-fit p-1.5 gap-1.5 text-sm flex items-center border rounded hover:bg-neutral-600/5 hover:dark:bg-neutral-400/10 border-neutral-600/15 dark:border-neutral-400/20 transition-colors duration-300 ease-in-out text-neutral-600 dark:text-neutral-400"
+        >
+          <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            width="20" 
+            height="20" 
+            viewBox="0 0 24 24" 
+            fill="none" 
+            stroke-width="2.5" 
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            class="stroke-neutral-600 dark:stroke-neutral-400 group-hover:stroke-neutral-800 group-hover:dark:stroke-neutral-200"
+          >
+            <line 
+              x1="19" 
+              y1="12" 
+              x2="5" 
+              y2="12" 
+              class="scale-x-0 group-hover:scale-x-100 translate-x-3 group-hover:translate-x-0 transition-all duration-300 ease-in-out" 
+            />
+            <polyline 
+              points="12 19 5 12 12 5" 
+              class="translate-x-1 group-hover:translate-x-0 transition-all duration-300 ease-in-out" 
+            />
+          </svg>
+          <span class="group-hover:text-neutral-800 group-hover:dark:text-neutral-200 transition-colors duration-300 ease-in-out">
+            Back to Projects
+          </span>
+        </a>
+      </div>
       <p
         class="w-full max-w-2xl mx-auto mb-4 prose-sm prose dark:prose-invert"
       >
@@ -37,5 +79,10 @@ const { frontmatter } = Astro.props;
     >
       <slot />
     </article>
+
+    <div class="p-10">
+      <ArticleBottomLayout currentTitle={frontmatter.title} />
+    </div>
+
   </main>
 </Layout>
