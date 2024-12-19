@@ -4,7 +4,7 @@
 
 A sleek and modern portfolio website showcasing my professional journey, projects, and creative pursuits. Built with Astro and React, featuring smooth animations and responsive design.
 
-## 🌟 Live Demo
+## 🚀 Live Demo
 
 Visit the live website: [shuheykoyama.com](http://shuheykoyama.com)
 
@@ -14,14 +14,6 @@ Visit the live website: [shuheykoyama.com](http://shuheykoyama.com)
 - **Smooth Hover Interactions** - Polished animations and transitions for an enhanced user experience
 - **Fully Responsive Design** - Seamlessly adapts to all screen sizes
 - **Clean & Modern UI** - Carefully crafted interface focusing on readability and visual hierarchy
-
-## 📋 Content Sections
-
-- **About Me** - Personal introduction, ambitions, and skill set
-- **Experience Timeline** - Professional journey and key milestones
-- **Project Showcase** - Highlighting notable works and achievements
-- **Publications** - Academic papers and research work (Coming Soon)
-- **Photography** - Personal photography portfolio (Coming Soon)
 
 ## 🛠️ Tech Stack
 
