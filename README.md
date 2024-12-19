@@ -1,54 +1,48 @@
-# Astro Starter Kit: Basics
+# Shuhey Koyama's Portfolio Website
 
-```sh
-npm create astro@latest -- --template basics
-```
+A sleek and modern portfolio website showcasing my professional journey, projects, and creative pursuits. Built with Astro and React, featuring smooth animations and responsive design.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+(Portfolio Preview)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🌟 Live Demo
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Visit the live website: [shuheykoyama.com](http://shuheykoyama.com)
 
-## 🚀 Project Structure
+## ✨ Features
 
-Inside of your Astro project, you'll see the following folders and files:
+- **Interactive Cursor Effects** - Engaging circular cursor tracker that follows user movements
+- **Smooth Hover Interactions** - Polished animations and transitions for an enhanced user experience
+- **Fully Responsive Design** - Seamlessly adapts to all screen sizes
+- **Clean & Modern UI** - Carefully crafted interface focusing on readability and visual hierarchy
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## 📋 Content Sections
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+- **About Me** - Personal introduction, ambitions, and skill set
+- **Experience Timeline** - Professional journey and key milestones
+- **Project Showcase** - Highlighting notable works and achievements
+- **Publications** - Academic papers and research work (Coming Soon)
+- **Photography** - Personal photography portfolio (Coming Soon)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## 🛠️ Tech Stack
 
-Any static assets, like images, can be placed in the `public/` directory.
+- [Astro](https://astro.build/) - Static Site Generator
+- [React](https://reactjs.org/) - UI Components
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [TypeScript](https://www.typescriptlang.org/) - Type Safety
+- [React Icons](https://react-icons.github.io/react-icons/) - Icon Library
 
-## 🧞 Commands
+## 🎨 Design Philosophy
 
-All commands are run from the root of the project, from a terminal:
+The website embodies three core principles:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+- **Sophistication** - Clean, modern aesthetic that reflects professionalism
+- **Usability** - Intuitive navigation and clear information hierarchy
+- **Engagement** - Interactive elements that create a memorable user experience
 
-## 👀 Want to learn more?
+## 📝 License
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+MIT License - feel free to use this project as inspiration for your own portfolio!
+
+---
+
+Built with ❤️ by Shuhey Koyama
