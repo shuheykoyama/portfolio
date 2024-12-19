@@ -1,8 +1,8 @@
-# Shuhey Koyama's Portfolio Website
+# Shuhey's Portfolio Website
+
+![Portfolio Preview](./public/assets/images/projects/portfolio_thumbnail.webp)
 
 A sleek and modern portfolio website showcasing my professional journey, projects, and creative pursuits. Built with Astro and React, featuring smooth animations and responsive design.
-
-(Portfolio Preview)
 
 ## 🌟 Live Demo
 
