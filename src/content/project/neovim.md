@@ -9,6 +9,7 @@ tags:
   - Neovim
   - Vim
   - Terminal
+  - Lua
 ---
 
 ![Neovim](/assets/images/projects/neovim_thumbnail.webp)
