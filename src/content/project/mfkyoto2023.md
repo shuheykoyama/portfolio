@@ -6,7 +6,7 @@ img_alt: Maker Faire Kyoto 2023 Archive Video
 description: Produced an archived video of the Maker Faire Kyoto 2023 exhibit.
 dateFormatted: Oct 4th, 2023
 tags:
-  - Video Archive
+  - Archive Video
   - Premiere Pro
   - After Effects
 ---

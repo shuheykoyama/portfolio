@@ -6,6 +6,7 @@ img_alt: TouchTheLight
 description: The experience of riding the rhythm is converted into light to provide an interactive musical experience.
 dateFormatted: Feb 4th, 2021
 tags:
+  - Interactive Art
   - Digital Fabrication
   - Arduino
   - Processing

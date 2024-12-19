@@ -7,7 +7,9 @@ description: A bus stop information service using AR.
 dateFormatted: Jan 13th, 2023
 tags:
   - Interaction Design
+  - Prototyping
   - Figma
+  - AR
 ---
 
 ![noribar](/assets/images/projects/noribar.webp)

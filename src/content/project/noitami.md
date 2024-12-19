@@ -6,8 +6,8 @@ img_alt: noitami
 description: A mask band that does not cause pain behind the ears.
 dateFormatted: Sep 1st, 2021
 tags:
-  - Digital Fabrication
   - Product Design
+  - Digital Fabrication
   - Illustrator
 ---
 

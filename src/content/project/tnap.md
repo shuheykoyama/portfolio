@@ -6,6 +6,8 @@ img_alt: tnap
 description: A screen saver for the terminal.
 dateFormatted: Apr 22nd, 2024
 tags:
+  - CLI
+  - Terminal
   - Rust
   - DALL-E 3
 ---

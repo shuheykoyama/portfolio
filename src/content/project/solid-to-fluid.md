@@ -6,8 +6,8 @@ img_alt: solid to fluid
 description: Hard objects have a texture that feels soft like fabric.
 dateFormatted: Feb 21st, 2023
 tags:
-  - Digital Fabrication
   - 3D Printing
+  - Digital Fabrication
   - Houdini
   - Meshmixer
 ---

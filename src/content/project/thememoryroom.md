@@ -6,7 +6,9 @@ img_alt: The memory room
 description: I will illuminate you with colors unique to me.
 dateFormatted: Sep 14th, 2021
 tags:
+  - Interactive Art
   - Digital Fabrication
+  - Computer Graphics
   - Arduino
   - Processing
 ---
