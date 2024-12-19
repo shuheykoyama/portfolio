@@ -3,7 +3,7 @@ layout: ../../layouts/project.astro
 title: tnap - Let's take a nap 💤
 img: /assets/images/projects/tnap.webp
 img_alt: tnap
-description: A screen saver for the terminal.
+description: A screen saver for the terminal
 dateFormatted: Apr 22nd, 2024
 tags:
   - CLI

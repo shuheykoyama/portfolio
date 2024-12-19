@@ -1,9 +1,9 @@
 ---
 layout: ../../layouts/project.astro
-title: Shuhey's Portfolio Website
+title: Portfolio Website
 img: /assets/images/projects/portfolio_thumbnail.webp
 img_alt: portfolio
-description: My portfolio website.
+description: Shuhey's portfolio website
 dateFormatted: Dec 19th, 2024
 tags:
   - Website
