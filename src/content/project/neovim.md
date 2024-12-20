@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/project.astro
 title: Neovim Setup
-img: /portfollio/assets/images/projects/neovim_thumbnail.webp
+img: /portfolio/assets/images/projects/neovim_thumbnail.webp
 img_alt: Neovim
 description: Super cool Neovim setup
 dateFormatted: Dec 20th, 2024
