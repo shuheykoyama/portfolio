@@ -28,6 +28,7 @@
     currentY += dy * ease;
 
     // Update the cursor position
+    const cursor = document.querySelector('.cursor') as HTMLElement;
     cursor.style.transform = `translate3d(${currentX - 12.5}px, ${currentY - 12.5}px, 0)`;
 
     // Request animation frame
