@@ -5,6 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://shuheykoyama.com/',
+  site: 'https://shuheykoyama.github.io',
+  base: '/portfolio',
   integrations: [react(), tailwind()],
 });
