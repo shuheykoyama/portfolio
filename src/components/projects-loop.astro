@@ -6,8 +6,16 @@ const allProjects = await getCollection("project");
 const { count } = Astro.props;
 
 function parseDate(dateStr) {
-  const [month, day, year] = dateStr.split(" ");
-  return new Date(`${month} ${parseInt(day)}, ${year}`);
+  const dateParts = dateStr.split(' ');
+
+  if (dateParts.length === 3) {
+    const [month, day, year] = dateParts;
+    return new Date(`${month} ${parseInt(day)}, ${year}`);
+  } else if (dateParts.length === 1) {
+    return new Date(dateStr);
+  } else {
+    throw new Error('Unexpected date format');
+  }
 }
 
 const sortedProjects = allProjects
