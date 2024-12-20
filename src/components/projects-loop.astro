@@ -5,7 +5,7 @@ const allProjects = await getCollection("project");
 
 const { count } = Astro.props;
 
-function parseDate(dateStr) {
+function parseDate(dateStr: string): Date {
   const dateParts = dateStr.split(' ');
 
   if (dateParts.length === 3) {
