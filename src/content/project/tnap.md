@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/project.astro
 title: tnap - Let's take a nap 💤
-img: /public/assets/images/projects/tnap.webp
+img: /portfolio/assets/images/projects/tnap.webp
 img_alt: tnap
 description: A screen saver for the terminal
 dateFormatted: Apr 22nd, 2024
@@ -12,7 +12,7 @@ tags:
   - DALL-E 3
 ---
 
-![tnap](/publicassets/images/projects/tnap.webp)
+![tnap](/portfolio/images/projects/tnap.webp)
 
 tnap is a screen saver for the terminal. You can rest the terminal in a secure.
 
@@ -27,8 +27,8 @@ tnap is a screen saver for the terminal. You can rest the terminal in a secure.
 ## Screenshots
 
 <div class="grid items-stretch w-full grid-cols-1 my-8 gap-7 sm:gap-5 sm:grid-cols-2">
-  <img src="/public/assets/images/projects/girl_with_headphone.webp" alt="girl_with_headphone" />
-  <img src="/public/assets/images/projects/girl_with_headphone_ascii.webp" alt="girl_with_headphone_ascii" />
+  <img src="/portfolio/assets/images/projects/girl_with_headphone.webp" alt="girl_with_headphone" />
+  <img src="/portfolio/assets/images/projects/girl_with_headphone_ascii.webp" alt="girl_with_headphone_ascii" />
 </div>
 
 ## Demo Video
@@ -41,7 +41,7 @@ tnap is a screen saver for the terminal. You can rest the terminal in a secure.
     autoplay="autoplay"
     muted="muted"
     loop="loop"
-    ><source src="/public/assets/images/projects/tnap-demo.webm" type="video/mp4" />
+    ><source src="/portfolio/assets/images/projects/tnap-demo.webm" type="video/mp4" />
   </video>
 </div>
 

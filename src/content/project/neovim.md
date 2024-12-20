@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/project.astro
 title: Neovim Setup
-img: /public/assets/images/projects/neovim_thumbnail.webp
+img: /portfollio/assets/images/projects/neovim_thumbnail.webp
 img_alt: Neovim
 description: Super cool Neovim setup
 dateFormatted: Dec 20th, 2024
@@ -12,7 +12,7 @@ tags:
   - Lua
 ---
 
-![Neovim](/public/assets/images/projects/neovim_thumbnail.webp)
+![Neovim](/portfolio/assets/images/projects/neovim_thumbnail.webp)
 
 ## I love Neovim
 
@@ -24,8 +24,8 @@ tags:
 
 ## Screenshots
 
-![Neovim screenshot 01](/public/assets/images/projects/neovim_screenshot_01.webp)
-![Neovim screenshot 02](/public/assets/images/projects/neovim_screenshot_02.webp)
+![Neovim screenshot 01](/portfolio/assets/images/projects/neovim_screenshot_01.webp)
+![Neovim screenshot 02](/portfolio/assets/images/projects/neovim_screenshot_02.webp)
 
 ## Source Code
 
