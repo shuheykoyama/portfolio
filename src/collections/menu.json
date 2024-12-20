@@ -1,19 +1,19 @@
 [
 	{
 		"name": "About",
-		"url": "/about"
+		"url": "/portfolio/about"
 	},
 	{
 		"name": "Projects",
-		"url": "/projects"
+		"url": "/portfolio/projects"
 	},
   {
     "name": "Publications",
-    "url": "/publications"
+    "url": "/portfolio/publications"
   },
 	{
 		"name": "Photos",
-		"url": "/photos"
+		"url": "/portfolio/photos"
 	},
   {
     "name": "Source",
