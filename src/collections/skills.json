@@ -149,17 +149,6 @@
 		]
 	},
 	{
-		"name": "AWS Lambda",
-		"icon": "SiAwslambda",
-		"level": "Beginner",
-		"keywords": [
-			"Programming",
-			"Data Science",
-			"Machine Learning",
-			"Web Development"
-		]
-	},
-	{
 		"name": "PostgreSQL",
 		"icon": "SiPostgresql",
 		"level": "Beginner",
@@ -259,22 +248,5 @@
 		"icon": "FaJava",
 		"level": "Intermediate",
 		"keywords": ["Programming", "Embedded Systems", "System Programming"]
-	},
-	{
-		"name": "PHP",
-		"icon": "SiPhp",
-		"level": "Beginner",
-		"keywords": ["Web Development", "Backend", "Fullstack"]
-	},
-	{
-		"name": "Lua",
-		"icon": "SiLua",
-		"level": "Beginner",
-		"keywords": [
-			"Programming",
-			"Data Science",
-			"Machine Learning",
-			"Web Development"
-		]
 	}
 ]
