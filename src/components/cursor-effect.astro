@@ -13,9 +13,40 @@
   const ease = 0.25;
 
   document.addEventListener('mousemove', (e) => {
-    // Set the mouse position as the target position
-    targetX = e.clientX;
-    targetY = e.clientY;
+    // Get the mouse position on the iframe
+    const iframe = e.target as HTMLElement;
+    if (iframe.tagName === 'IFRAME') {
+      const rect = iframe.getBoundingClientRect();
+      const offsetX = e.clientX - rect.left;
+      const offsetY = e.clientY - rect.top;
+
+      // Calculate the mouse position relative to the iframe
+      if (offsetX >= 0 && offsetX <= rect.width && offsetY >= 0 && offsetY <= rect.height) {
+        // Set the mouse position as the target position
+        targetX = e.clientX;
+        targetY = e.clientY;
+      }
+    } else {
+      // Set the mouse position as the target position
+      targetX = e.clientX;
+      targetY = e.clientY;
+    }
+  });
+
+  // Add event listener for iframe
+  const iframes = document.querySelectorAll('iframe');
+  iframes.forEach(iframe => {
+    iframe.style.pointerEvents = 'none';  // Disable pointer events on iframe
+
+    // Create an overlay on the iframe
+    const overlay = document.createElement('div');
+    overlay.style.position = 'absolute';
+    overlay.style.top = '0';
+    overlay.style.left = '0';
+    overlay.style.width = '100%';
+    overlay.style.height = '100%';
+    overlay.style.zIndex = '1';
+    iframe.parentElement?.insertBefore(overlay, iframe);
   });
 
   function updateCursorPosition() {
